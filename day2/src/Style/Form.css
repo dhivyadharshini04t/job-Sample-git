@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230523/pngtree-cyan-blue-light-effect-abstract-vector-stock-photos-image-guardian-bright-image_2806077.jpg'); */
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+  width: 750px;
+  height:fit-content;
+  margin-right:100px;
+  
+}
+
+.feedbackFormContainer {
+  flex: 1;
+  background-color: rgba(11, 75, 172, 0.8); /* Adjust the opacity as needed */
+  padding: 20px;
+  border-radius: 10px;
+  padding-right:40px;
+  margin-left: -75px;
+
+}
+
+.formTitle {
+  text-align: center;
+  margin-top: -10px;
+}
+
+.formField {
+  margin-bottom: 7px;
+}
+
+.label-name,
+.label-email,
+.label-age {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-name,
+.input-email,
+.input-age,
+.input-comment {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input-comment {
+  height: 100px; /* Adjust textarea height as needed */
+}
+
+.submitButton-container {
+  text-align: center;
+}
+
+.submitButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff; /* Adjust button color as needed */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submitButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error-message,
+.success-message {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: green;
+}

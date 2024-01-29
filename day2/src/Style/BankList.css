@@ -1,0 +1,65 @@
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #60A3D9;
+}
+
+.job-listing-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #060606;
+  padding: 10px;
+  margin: 10px;
+  height: 500px;
+  width: 270px;
+  padding-top:55px;
+}
+
+
+.company-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.job-details {
+  padding: 0 10px;
+}
+
+.job-title {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.company-name {
+  color: #a25454;
+  margin-bottom: 5px;
+}
+
+.job-description {
+  color: #000000;
+}
+/* Add this to your JobListing.css file */
+
+.apply-now-button {
+  background-color: #3094e6; /* Green background */
+  border: none; /* Remove border */
+  color: rgb(17, 14, 14); /* White text */
+  padding: 7px 7px; /* Padding */
+  text-align: center;
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 14px; /* Font size */
+  margin: -10px -3px; /* Margin */
+  cursor: pointer; /* Cursor pointer on hover */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.apply-now-button:hover {
+  background-color: #1fa6fb; /* Darker green on hover */
+}

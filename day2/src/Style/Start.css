@@ -1,0 +1,106 @@
+.full-page-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.full-page-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.top-text-container {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+}
+
+.moving-text {
+  animation: textMove 2s ease-in-out infinite alternate;
+}
+
+@keyframes textMove {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+
+.logo {
+  position: absolute;
+  bottom: 50px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px; /* Adjust the size of the logo as needed */
+  height: auto; /* Let the height adjust automatically */
+}
+
+.arrow-link {
+  position: absolute;
+  bottom: 10px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.arrow {
+  width: 50px;
+  height: 50px;
+  border-bottom: 2px solid #ffffff; /* Arrow with a white border */
+  border-right: 2px solid #ffffff;
+  transform: rotate(45deg); /* To make the arrow straight */
+}
+.full-page-container {
+  position: relative;
+}
+
+.logo-container {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  width: 200px; /* Adjust the width as needed */
+  height: auto;
+}
+
+
+
+.full-page-image {
+  width: 100%;
+  height: auto;
+}
+
+.buttons-container {
+  position: absolute;
+  bottom: 20px; /* Adjust the distance from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Adjust the gap between buttons */
+}
+
+.button {
+  padding: 10px 20px; /* Adjust button padding */
+  background-color: #0879f1; /* Button background color */
+  color: rgb(10, 8, 8); /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom:100px ;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}

@@ -1,0 +1,56 @@
+.slideshow-container {
+  max-width: 500px; /* Adjust as needed */
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+  width: 100%;
+}
+
+.mySlides img {
+  width: 100%;
+  height: 150px; /* Adjust height as needed */
+  object-fit: cover; /* or object-fit: contain; depending on your preference */
+}
+
+.fade {
+  animation: fadeEffect 2s infinite; /* Change duration to 2s to transition smoothly every 1 second */
+}
+
+@keyframes fadeEffect {
+  0%, 50% { opacity: 0; } /* Fade out for the first 50% of the animation */
+  55%, 100% { opacity: 1; } /* Fade in for the remaining 50% of the animation */
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}

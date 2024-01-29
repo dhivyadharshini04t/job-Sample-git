@@ -1,0 +1,149 @@
+/* Home.css */
+.combined-container {
+    display: flex;
+  }
+  
+  /* SidePanel styles */
+  .side-panel-container {
+    width: 200px; /* Adjust width as needed */
+    height: 100vh; /* Adjust to match the viewport height */
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .side-panel-container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .side-panel-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .side-panel-container li {
+    margin-bottom: 10px;
+  }
+  
+  .side-panel-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    display: block;
+  }
+  
+  .side-panel-container a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    /* background-color: #4b858d; */
+    padding: 15px 0;
+    width: calc(160% - 3px); /* Adjust width to fill the remaining space */
+    z-index: 1000;
+    background-size: cover;
+  }
+  
+  .navbar-container {
+    max-width: 2200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    color: rgb(20, 8, 8);
+    text-decoration:dotted;
+    font-size: 3.0rem;
+    font-weight: bold;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-links {
+    color: rgb(15, 7, 7);
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .nav-links:hover {
+    color: #ffcc00;
+  }
+  /* Your CSS file or inline styles */
+
+  .search input {
+    /* margin-top: 300px;
+    margin-right: 600px; */
+
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* margin-right: 10px; */
+  }
+  
+  .search button {
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search button:hover {
+    background-color: #2980b9;
+  }
+  .overall {
+    /* Replace 'your-image-url.jpg' with the actual URL or path to your image */
+    background-image: url("https://images.pexels.com/photos/4065876/pexels-photo-4065876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    margin: 0; /* This removes default body margin */
+    width: 1475px;
+    background-size:cover ;
+  }
+
+  /* Home.css */
+
+/* ... (existing styles) */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position:fixed;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  color: #ffcc00;
+}
+
+  
